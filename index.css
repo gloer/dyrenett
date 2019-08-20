@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: darkblue;
+}
+
+header nav {
+    display: grid;
+    grid-auto-flow: column;   
+    
+    /* Ser på forskjellige måter å fordele lenkene i griden */
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header nav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+header nav a.active {
+    background-color: blueviolet;
+}
+
+main {
+    padding: 16px;
+}
